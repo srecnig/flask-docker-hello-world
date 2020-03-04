@@ -13,7 +13,7 @@ docker run -d -p 5000:5000 flask-hello-world
 curl localhost:5000
 ```
 
-It's also pushed to [hub.docker.com](https://hub.docker.com/repository/docker/srecnig/flask-hello-world), and you can try it out by installing it from there:
+It's also pushed to [hub.docker.com](https://hub.docker.com/r/srecnig/flask-hello-world), and you can try it out by installing it from there:
 
 ```
 # run
