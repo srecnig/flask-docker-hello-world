@@ -1,6 +1,6 @@
 # flask-docker-hello-world
 
-This is a dockerized flask hello-world. The only thing it does it to install `Flask` and implements Flask's [hello-world example](https://palletsprojects.com/p/flask/). You can run and build this locally like this:
+This is a dockerized flask hello-world. The only thing it does it to install `Flask` and implements a few hello-world like [things](https://palletsprojects.com/p/flask/). You can run and build this locally like this:
 
 ```
 # build
