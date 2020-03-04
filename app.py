@@ -1,3 +1,5 @@
+import secrets
+
 from flask import abort, Flask, escape, jsonify, request
 
 app = Flask(__name__)
@@ -14,5 +16,9 @@ def echo_json():
     if not request.json:
         abort(400)
     else:
-        print(request.json)
         return jsonify(request.json)
+
+
+@app.route("/gimme-token")
+def gimme_token():
+    return secrets.token_urlsafe()
